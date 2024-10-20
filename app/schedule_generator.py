@@ -20,5 +20,3 @@ def generate_schedule(days: int, work_days: int, rest_days: int, start_date: dat
             current_date += timedelta(days=rest_days)
     
     return schedule
-
-print(generate_schedule(5, 2, 1, datetime(2020, 1, 30)))
